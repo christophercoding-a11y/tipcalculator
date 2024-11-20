@@ -25,7 +25,7 @@ let menuItems = [
         type: 'appetizers',
         item: 'onion blossom',
         desc: 'fresh onion blossom with choice of sauce',
-        imgUrl: '',
+        imgUrl: 'onionblossom.jpg',
         price: 9.99,
         qty: 0
     },
@@ -34,7 +34,7 @@ let menuItems = [
         type: 'appetizers',
         item: 'mozzarella sticks',
         desc: 'deep fried mozzarella sticks with marinara sauce',
-        imgUrl: '',
+        imgUrl: 'mozzarellaSticks.jpeg',
         price: 5.99,
         qty: 0
     },
@@ -43,7 +43,7 @@ let menuItems = [
         type: 'appetizers',
         item: 'buffalo chicken wings',
         desc: 'deep fried buffalo chicken wings with choice of sauce',
-        imgUrl: '',
+        imgUrl: 'buffalochickenwing.jpg.jpg',
         price: 7.99,
         qty: 0 
     },
@@ -52,7 +52,7 @@ let menuItems = [
         type: 'appetizers',
         item: 'Loaded Nachos',
         desc: 'Loaded Nachos with tortilla chips topped with melted cheese and other savoury toppings',
-        imgUrl: '',
+        imgUrl: 'loadednachos.jpeg',
         price: 6.99,
         qty: 0
     },
@@ -61,7 +61,7 @@ let menuItems = [
         type: 'entrees',
         item: 'Cheeseburger',
         desc: 'Cheeseburger with your choice of condiment and other toppings',
-        // imgUrl: 'cheeseburger.jpeg',
+        imgUrl: 'cheeseburger.jpeg',
         price: 10.99,
         qty: 0 
     },
@@ -70,7 +70,7 @@ let menuItems = [
         type: 'entrees',
         item: 'Rib eye steak',
         desc: 'a cut of beef from the rib section of a cow thats known if its rich flavor, tenderness, and juiciness',
-        // imgUrl: 'ribeye steak.jpeg',
+        imgUrl: 'ribeyesteak.jpeg',
         price: 21.99,
         qty: 0
     },
@@ -79,16 +79,16 @@ let menuItems = [
         type: 'entrees',
         item: 'Spaghetti and meatballs',
         desc: 'Spaghetti and mealballs with tomato sauce',
-        // imgUrl: 'spaghetti and meatballs,jpeg',
+        imgUrl: 'spaghetti and meatballs.jpeg',
         price: 7.99,
         qty: 0
     },
     {
         id: 8,
         type: 'entrees',
-        item: 'catfish',
+        item: 'Friedcatfish',
         desc: 'deep fried catfish with choice of sauce',
-        // imgUrl: 'catfish.jpeg',
+        imgUrl: 'Friedcatfish.jpeg',
         price: 5.99,
         qty: 0
     },
@@ -97,7 +97,7 @@ let menuItems = [
         type: 'drinks',
         item: 'Water',
         desc: 'a calorie-free drink',
-        // imgUrl: 'water.jpeg',
+        imgUrl: 'water.jpeg',
         price: 3.99,
         qty: 0
     },
@@ -106,35 +106,35 @@ let menuItems = [
         type: 'drinks',
         item: 'Coke',
         desc: 'a carbonated soft drink',
-        // imgUrl: 'coke.jpeg',
+        imgUrl: 'coke.jpeg',
         price: 3.99,
         qty: 0
     },
     {
         id: 11,
-        type: 'desserts',
-        item: 'Chocolate chip cookie',
-        desc: 'Cookie with delicious chocolate chips',
-        // imgUrl: 'chocolate chip cookie-dew.jpeg',
-        price: 4.99,
+        type: 'drinks',
+        item: 'Fruit punch',
+        desc: 'A punch made of fruit juices mixed with water or soda water.',
+        imgUrl: 'fruitpunch.WEBP',
+        price: 3.99,
         qty: 0
     },
     {
         id: 12,
         type: 'drinks',
-        item: 'Fruit punch',
-        desc: 'A punch made of fruit juices mixed with water or soda water.',
-        // imgUrl: 'fruit punch.jpeg',
+        item: 'orange soda',
+        desc: 'A carbonated non-alcoholic beverage with an orange flavor.',
+        imgUrl: 'orangesoda.WEBP',
         price: 3.99,
         qty: 0
     },
     {
         id: 13,
-        type: 'drinks',
-        item: 'orange soda',
-        desc: 'A carbonated non-alcoholic beverage with an orange flavor.',
-        // imgUrl: 'chocolate chip soda.jpeg',
-        price: 3.99,
+        type: 'desserts',
+        item: 'Chocolate chip cookie',
+        desc: 'Cookie with delicious chocolate chips',
+        imgUrl: 'chocolatechip.jpeg',
+        price: 4.99,
         qty: 0
     },
     {
@@ -142,7 +142,7 @@ let menuItems = [
         type: 'desserts',
         item: 'Cheesecake',
         desc: 'A dessert made with soft fresh cheese, eggs and sugars',
-        // imgUrl: 'cheesecake soda.jpeg',
+        imgUrl: 'cheesecake.jpeg',
         price: 3.99,
         qty: 0
     },
@@ -151,8 +151,8 @@ let menuItems = [
         type: 'desserts',
         item: 'ice cream',
         desc: 'A creamy, sweet dessert made with dairy, eggs, sugar, and sorbet powder.',
-        // imgUrl: 'ice cream soda.jpeg',
-        price: 3.99,
+        imgUrl: 'icecream.jpeg',
+        price: 4.99,
         qty: 0
     },
     {
@@ -160,6 +160,7 @@ let menuItems = [
         type: 'desserts',
         item: 'chocolate chip brownie',
         desc: 'A chew, sweet brownie with delicious chocolate chips',
+        imgUrl: 'chocolatechipbrownie.jpeg',
         price: 3.99,
         qty: 0
     },
@@ -168,7 +169,7 @@ let menuItems = [
         type: 'sides',
         item: 'Season fries',
         desc: 'deep fries seasoned fries',
-        imgUrl: 'seasoned fries.jpeg',
+        imgUrl: 'seasonedfries.jpeg',
         price: 3.99,
         qty: 0
     },
@@ -177,7 +178,7 @@ let menuItems = [
         type: 'sides',
         item: 'corn on a cob',
         desc: 'A cooked ear of sweet corn thats eaten from the cob',
-        // imgUrl: 'corn on a cob.jpeg',
+        imgUrl: 'corn on a cob.jpeg',
         price: 5.99,
         qty: 0
     },
@@ -186,8 +187,8 @@ let menuItems = [
         type: 'sides',
         item: 'baked beans',
         desc: 'a dish of beans that are stewed or baked in a sauce with seasonings and sometimes meat or flat',
-        imgUrl: 'baked beans fries.jpeg',
-        price: 3.99,
+        imgUrl: 'baked beans.jpeg',
+        price: 5.99,
         qty: 0
     },
     {
@@ -204,8 +205,33 @@ let menuItems = [
 // confirm Button
 confirmBtn.addEventListener('click', (e)=> {
     e.preventDefault()
-    console.log('click')
+    // console.log('click')
+    getTotal()
 })
+
+// getTotal()
+const getTotal =()=> {
+
+    const subtotal = parseFloat(cartSubtotal.innerText)
+    const tipAmt = parseFloat(document.getElementById('tipAmt').value)
+    const other = parseFloat(document.getElementById('otherAmt').value)
+    const yourTip = document.getElementById('yourTip')
+    const TheSubtotal = document.getElementById('theSubtotal')
+    const taxDisplay = document.getElementById('tax')
+
+    let taxTotal = subtotal * tax
+
+    let receiptTip = isNaN(tipAmt) ? othetAmt : (subtotal * tipAmt)
+
+    let total = isNaN(tipAmt) ? subtotal + otherAmt + taxTotal :
+        receiptTip + subtotal + taxTotal
+
+    TheSubtotal.innerText = subtotal
+    taxDisplay.innerText = taxTotal.toFixed(2)
+    yourTip.innerText = receiptTip.toFixed(2)
+    totalDisplay.innerText = total.toFixed(2)
+
+}
 
 // load the menu items
 menuDivs.forEach(div => {
@@ -222,7 +248,7 @@ menuDivs.forEach(div => {
 for (let i = 0; i < menuTypes.length; i++) {
     menuDivs[i].children[0].innerText = menuTypes[i]
     menuDivs[i].children[1].setAttribute('id', `${menuTypes[i]}Row`)
-    console.log(menuDivs[i])
+    // console.log(menuDivs[i])
 }
 // grab the appRow
 const appRow = document.getElementById('appetizersRow')
@@ -266,7 +292,7 @@ menuItems.forEach(item => {
                     > - </button>
                     <span class="quantity" id="quantity${item.id}">${item.qty}</span>
                     <button
-                        class="btn btn-primary btn add"
+                        class="btn btn-primary btn-add"
                         id="btnAdd${item.id}"
                         data-id="${item.id}"
                         data-qty="${item.qty}"
@@ -315,9 +341,12 @@ cartButtons.forEach(button => {
     button.addEventListener('click', ()=> {
         let qty
         for (let i = 0; i < menuItems.length; i++) {
-            menuItems[i]. id === id ? qty = menuItems[i]. qty : null
+            menuItems[i].id === id ? qty = menuItems[i].qty : null
         }
-        addItems(price, qty, item, id)
+
+        if(button.getAttribute('data-qty') > 0) {
+            addItems(price, qty, item, id)
+        }
     })
 })
 
@@ -364,7 +393,7 @@ const makeReceipt = (obj, el)=> {
     const itemSubtotal = document.createElement('td')
     itemSubtotal.classList.add('item-subtotal', 'text-center')
     itemSubtotal.setAttribute('id', `subTotal${obj.id}`)
-    itemSubtotal.innerText = obj.itemTotal
+    itemSubtotal.innerText = obj.itemTotal.toFixed(2)
 
     tableRow.appendChild(receiptChoice)
     tableRow.appendChild(receiptQty)
@@ -376,7 +405,7 @@ const makeReceipt = (obj, el)=> {
 
 }
 
-const btnSubtract = document.querySelectorAll('.btn-add')
+const btnSubtract = document.querySelectorAll('.btn-subtract')
 const btnAdd = document.querySelectorAll('.btn-add')
 
 btnSubtract.forEach(button => {
@@ -385,7 +414,7 @@ btnSubtract.forEach(button => {
         const spanQty = document.getElementById(`quantity${btnId}`)
 
         for (let i = 0; i < menuItems.length; i++) {
-            if(menuItems [i]. id === btnId && menuItems [i]. qty > 0) {
+            if(menuItems [i].id === btnId && menuItems [i].qty > 0) {
                 menuItems[i].qty-= 1
                 spanQty.innerText = menuItems[i].qty
             }
@@ -396,6 +425,7 @@ btnSubtract.forEach(button => {
 btnAdd.forEach(button => {
     button.addEventListener('click', ()=> {
         const btnId = parseFloat(button.getAttribute('data-id'))
+        console.log(btnId)
         const spanQty = document.getElementById(`quantity${btnId}`)
 
         for (let i = 0; i < menuItems.length; i++) {
@@ -403,6 +433,7 @@ btnAdd.forEach(button => {
                 && menuItems[i].qty < 20
                 && cartButtons[i].dataset.id == btnId
             ) {
+                console.log(menuItems[i])
                 menuItems[i].qty+=1
                 cartButtons[i].setAttribute('data-qty', menuItems[i].qty)
                 spanQty.innerText = menuItems[i].qty
@@ -410,3 +441,4 @@ btnAdd.forEach(button => {
         }
     })
 })
+
