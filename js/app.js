@@ -196,7 +196,7 @@ let menuItems = [
         type: 'sides',
         item: 'deviled eggs',
         desc: 'hard-boiled eggs that have been peeled, cut in half, then stuffed with a paste made from the yolk and other ingredients.',
-        imgUrl: 'devilled eggd.jpeg',
+        imgUrl: 'deviled eggs.jpeg',
         price: 3.99,
         qty: 0
     },
